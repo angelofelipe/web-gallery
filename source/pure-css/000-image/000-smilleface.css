@@ -1,3 +1,80 @@
-.taile {
-    color: aliceblue;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    background-color: #9132a8;
+    width: 98vh;
+    height: 98vh;
+    align-self: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    width: 98vh;
+    height: 98vh;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+
+.left-eye {
+    flex: 0 0 auto;
+    content: '';
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    background-color: black;
+    /* position: absolute; */
+}
+
+.right-eye {
+    flex: 0 0 auto;
+    content: '';
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    background-color: black;
+    /* position: absolute; */
+}
+
+div.mouth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mouth {
+    /* display: flex; */
+    /* flex: 0 0 auto; */
+    align-self: center;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    height: 20vh;
+    width: 40vh;
+    content: '';
+    background-color: black;
 }
