@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.frame {
+    /* Around */
+    border: solid;
+    width: 98vh;
+    height: 98vh;
+    /* Art */
+    background-color: blue;
+    /* Container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-l {
+    width: 90vh;
+    height: 10vh;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.bar-c {
+    width: 90vh;
+    height: 10vh;
+    background-color: purple;
+    transform: translateY(+100%);
+    position: absolute;
+}
+
+.bar-r {
+    width: 90vh;
+    height: 10vh;
+    background-color: white;
+    transform: translate(0%, -100%); /* (x, y, z) */
+    position: absolute;
+}
