@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 98vh;
+    height: 98vh;
+    border: 1px solid black;
+
+    
+    
+}
