@@ -67,34 +67,34 @@ body {
     background-color: green;
 }
 
-.column-right > .line > .element {
+.column-right > .line-top > .element {
     width: 10%;
     height: 10%;
     border: 5px dotted green;
     margin: 2%;
 }
 
-.column-right > .line > .element > p {
+.column-right > .line-top > .element > p {
     margin: 0%;
     border: 3px ridge yellowgreen;
     background-color: blue;
 }
 
-.column-right > .line > .element-1 {
+.column-right > .line-top > .element-1 {
     align-self: flex-start;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.column-right > .line > .element-2 {
+.column-right > .line-top > .element-2 {
     border: 10px double pink;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.column-right > .line > .element-3 {
+.column-right > .line-top > .element-3 {
     align-self: flex-end;
     border: 20px ridge orangered;
 
@@ -103,7 +103,7 @@ body {
     align-items: flex-start;
 }
 
-.column-right > .line > .element-4 {
+.column-right > .line-top > .element-4 {
     width: 15%;
     height: 15%;
     font-style: oblique;
@@ -115,10 +115,16 @@ body {
     align-items: stretch;
 }
 
-.column-right > .line > .element-4 > p {
+.column-right > .line-top > .element-4 > p {
     background-color: tomato;
 }
 
 .line-donw {
     background-color: purple;
+}
+
+.line-donw > div {
+    width: 25%;
+    height: 90%;
+    background-color: black;
 }
