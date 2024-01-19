@@ -23,7 +23,25 @@ body {
 }
 
 .column-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: blue;
+}
+
+.column-left > div {
+    width: 20%;
+    height: 90%;
+    background-color: silver;
+    margin: 3%;
+}
+
+.column-left > .element-1, .column-left > .element-3 {
+    align-self: flex-start;
+}
+
+.column-left > .element-2, .column-left > .element-4 {
+    align-self: flex-end;
 }
 
 .column-right{
@@ -49,34 +67,34 @@ body {
     background-color: green;
 }
 
-.element {
+.column-right > .line > .element {
     width: 10%;
     height: 10%;
     border: 5px dotted green;
     margin: 2%;
 }
 
-.element > p {
+.column-right > .line > .element > p {
     margin: 0%;
     border: 3px ridge yellowgreen;
     background-color: blue;
 }
 
-.element-1 {
+.column-right > .line > .element-1 {
     align-self: flex-start;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.element-2 {
+.column-right > .line > .element-2 {
     border: 10px double pink;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.element-3 {
+.column-right > .line > .element-3 {
     align-self: flex-end;
     border: 20px ridge orangered;
 
@@ -85,7 +103,7 @@ body {
     align-items: flex-start;
 }
 
-.element-4 {
+.column-right > .line > .element-4 {
     width: 15%;
     height: 15%;
     font-style: oblique;
@@ -97,7 +115,7 @@ body {
     align-items: stretch;
 }
 
-.element-4 > p {
+.column-right > .line > .element-4 > p {
     background-color: tomato;
 }
 
