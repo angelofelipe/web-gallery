@@ -9,11 +9,28 @@ body {
     margin: 0;
 }
 .frame {
-    
-}
-
-.frame1 {
     border: 1.1vh groove silver;
     width: 98vh;
     height: 98vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 44vh solid transparent;
+    border-right: 44vh solid transparent;
+    border-bottom: 88vh solid green;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 44vh solid transparent;
+    border-right: 44vh solid transparent;
+    border-top: 88vh solid yellow;
+    position: absolute;
 }
