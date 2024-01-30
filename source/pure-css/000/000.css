@@ -6,8 +6,8 @@ body {
 
 .frame {
     background-color: #9132a8;
-    width: 98vh;
-    height: 98vh;
+    width: 98vmin;
+    height: 98vmin;
     align-self: center;
 
     position: absolute;
@@ -23,8 +23,8 @@ body {
 }
 
 .face {
-    width: 98vh;
-    height: 98vh;
+    width: 98vmin;
+    height: 98vmin;
     border-radius: 100%;
     background-color: yellow;
 }
@@ -38,8 +38,8 @@ body {
 .left-eye {
     flex: 0 0 auto;
     content: '';
-    height: 30vh;
-    width: 30vh;
+    height: 30vmin;
+    width: 30vmin;
     border-radius: 100%;
     background-color: black;
     /* position: absolute; */
@@ -48,8 +48,8 @@ body {
 .right-eye {
     flex: 0 0 auto;
     content: '';
-    height: 30vh;
-    width: 30vh;
+    height: 30vmin;
+    width: 30vmin;
     border-radius: 100%;
     background-color: black;
     /* position: absolute; */
@@ -73,8 +73,8 @@ div.mouth {
     transform: translate(-50%, -50%);
 
     position: absolute;
-    height: 20vh;
-    width: 40vh;
+    height: 20vmin;
+    width: 40vmin;
     content: '';
     background-color: black;
 }

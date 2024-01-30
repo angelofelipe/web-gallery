@@ -1,16 +1,23 @@
 body {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .frame {
     /* Around */
     border: solid;
-    width: 98vh;
-    height: 98vh;
+    width: 98vmin;
+    height: 98vmin;
     /* Art */
     background-color: blue;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
     /* Container */
     display: flex;
     justify-content: center;
@@ -18,24 +25,24 @@ body {
 }
 
 .bar-l {
-    width: 90vh;
-    height: 10vh;
+    width: 90vmin;
+    height: 10vmin;
     background-color: black;
     transform: rotate(45deg);
     position: absolute;
 }
 
 .bar-c {
-    width: 90vh;
-    height: 10vh;
+    width: 90vmin;
+    height: 10vmin;
     background-color: purple;
     transform: translateY(+100%);
     position: absolute;
 }
 
 .bar-r {
-    width: 90vh;
-    height: 10vh;
+    width: 90vmin;
+    height: 10vmin;
     background-color: white;
     transform: translate(0%, -100%); /* (x, y, z) */
     position: absolute;

@@ -5,8 +5,8 @@ body {
 }
 
 .frame {
-    width: 98vh;
-    height: 98vh;
+    width: 98vmin;
+    height: 98vmin;
     border: 1px solid black;
     background-color: black;
     

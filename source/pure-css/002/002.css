@@ -6,8 +6,15 @@ body {
 
 .frame {
     border: 1px solid black;
-    width: 98vh;
-    height: 98vh;
+    width: 98vmin;
+    height: 98vmin;
+    /* position: relative; */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,35 +30,38 @@ body {
 }
 
 .rocket-body {
-    width: 30vh;
-    height: 30vh;
+    /* capsule behind trace */
+    width: 30vmin;
+    height: 30vmin;
     background-color: black;
     border-radius: 100%;
-
+    /* Bady of the rocket */
     &::before {
         content: '';
-        width: 30vh;
-        height: 30vh;
+        width: 30vmin;
+        height: 30vmin;
         background-color: blueviolet;
         position: absolute;
         top: 50%;
         border-radius: 0% 0% 30% 30%;
     }
+    /* Tail of the rocket */
     &::after {
         content: '';
-        width: 10vh;
-        height: 15vh;
+        width: 10vmin;
+        height: 15vmin;
         background-color: aqua;
         position: absolute;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        top: 80%;
+        top: 80.6%;
         left: 50%;
         transform: translateX(-50%);
     }
 }
 
 .vertical {
+    /* capsule in front of the trace */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,31 +70,34 @@ body {
     top: 43.4%;
     border: 3px dashed green;
     border-radius: 50%;
+    /* capsule - back - biggest */
     &::before {
         content: '';
         position: absolute;
-        width: 30vh;
-        height: 15vh;
+        width: 30vmin;
+        height: 15vmin;
         top: -50%;
         background-color: black;
-        border-radius: 15vh 15vh 0 0;
+        border-radius: 15vmin 15vmin 0 0;
     }
+    /* capsule - front - smaller */
     &::after {
         content: '';
         position: absolute;
-        width: 28vh;
-        height: 14vh;
-        top: -44.4%;
+        width: 28vmin;
+        height: 14vmin;
+        top: -44.3%;
         background-color: cadetblue;
-        border-radius: 14vh 14vh 0 0;
+        border-radius: 14vmin 14vmin 0 0;
     }
 }
 
+/* rounded wings */
 .vertical-balls {
-    width: 5vh;
-    height: 5vh;
+    width: 5vmin;
+    height: 5vmin;
     background-color: brown;
-    margin: 6.2vh;
+    margin: 6.2vmin;
 }
 
 .vertical > .left {
