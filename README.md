@@ -4,6 +4,8 @@ The objective of this repository is artistic creation using common tools on the 
 
 # Goals
 
+[] 6. Criar breadcrumbs a partir do nome das pastas que formam o caminho.
+
 - [] 5. Develop the format of HTML pages with useful "metadata" that will invoke HTML with engraving.
 
 - [] 4. Develop a model with neutral color palettes for the home page and a model that is dynamic for the internal pages using color variables so that the colors of the internal pages are in harmony with those of the CSS painting.
