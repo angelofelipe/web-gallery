@@ -1,5 +1,10 @@
 :root {
-    --clr-primary: #234525;
+    --clr-light: aqua;
+    --clr-dark: blue;
+    --clr-side: aquamarine;
+    --clr-side-border: teal;
+    --clr-corner: teal;
+    /* teal or green */
 }
 
 *,
@@ -13,4 +18,66 @@
     padding: 0;
     line-height: 1.5;
     /* color: var(--clr-primary); */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    border: 1px solid black;
+    width: 98vmin;
+    height: 98vmin;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+
+    font-size: 5vmin;
+}
+
+.table {
+    display: grid;
+    grid-template-rows: repeat(9, calc(11.1/100 * 98vmin));
+    grid-template-columns: repeat(9, calc(11.1/100 * 98vmin));
+    grid-auto-flow: column;
+}
+
+.colorful[class$="1"],
+.colorful[class$="3"],
+.colorful[class$="5"],
+.colorful[class$="7"],
+.colorful[class$="9"] {
+    background-color: var(--clr-dark);
+}
+
+.colorful[class$="0"],
+.colorful[class$="2"],
+.colorful[class$="4"],
+.colorful[class$="6"],
+.colorful[class$="8"] {
+    background-color: var(--clr-light);
+}
+
+
+.left-side {
+    background-color: var(--clr-side);
+    border-right: 5px solid var(--clr-side-border);
+}
+
+.bottom-side {
+    background-color: var(--clr-side);
+    border-top: 5px solid var(--clr-side-border);
+}
+
+[class$="9"] {
+    background-color: var(--clr-corner);
 }
