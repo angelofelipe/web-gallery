@@ -1,3 +1,5 @@
+5. [Emmet abbreviations - 26/02/2024](https://docs.emmet.io/cheat-sheet/)
+
 4. [Transformer of SVG to ClipPath - 05/02/2024](https://yoksel.github.io/relative-clip-path/)
 
 3. [Of the same creator of the clip path tool](https://bennettfeely.com/)
