@@ -2,12 +2,17 @@
 [Micro 5](https://fonts.google.com/specimen/Micro+5)
 [Jacquarda Bastarda 9](https://fonts.google.com/specimen/Jacquarda+Bastarda+9)
 
+[Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+
+[VT323](https://fonts.google.com/specimen/VT323)
 
 # Terror
 
 []
 
 # Non Letters
+
+[Noto Music](https://fonts.google.com/noto/specimen/Noto+Music?classification=Symbols)
 
 # Hand Write
 
@@ -16,7 +21,13 @@
 
 [Orbitron](https://fonts.google.com/specimen/Orbitron)
 
+[Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?classification=Monospace)
+
+[Audiowide](https://fonts.google.com/specimen/Audiowide)
+
 # Monoton - inner lines
+
+[Monoton](https://fonts.google.com/specimen/Monoton)
 
 # Colorful
 [Honk](https://fonts.google.com/specimen/Honk)
